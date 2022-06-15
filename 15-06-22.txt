@@ -1,0 +1,23 @@
+
+Types of Datatypes
+1. Primitive Datatype : Number, String, Boolean
+2. Non-primitive Datatype : Array, Object
+
+1. Copy by Value 
+    => Take different value for different reference
+2. Copy by reference 
+    => Take same value for for all the assigned references 
+    => Non primitive Datatypes behave Copy by reference 
+    => To overcome Copy by reference we can use Spread Operator 
+3. Scope (let, var, const)
+    => let : let is a block / local scope
+        a. Declarations are only block scope, 
+        If initialized in inner scope it can be accessed in the outer scope where declared (Example 1)
+        b. Let can't be re-declared, It can be re-assigned 
+    => var : var is a global scope 
+        a. var can be re-declared and re-assigned 
+    => const : const is a block / local scope
+        a. Declaration and Initialization should happen at the same line 
+        b. const can't be re-assigned 
+
+    

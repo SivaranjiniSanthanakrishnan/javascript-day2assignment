@@ -45,5 +45,5 @@ var students = [
     {id: 3, name: 'zzz', age: 20},
 ]
 for (let ele of students) {
-    console.log(ele.name[2]);
+   // console.log(ele.name[2]);
 }
