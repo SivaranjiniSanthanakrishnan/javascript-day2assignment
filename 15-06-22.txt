@@ -20,4 +20,11 @@ Types of Datatypes
         a. Declaration and Initialization should happen at the same line 
         b. const can't be re-assigned 
 
+4. Variable Hoisting:
+    => Declarations are moved/hoisted to the top of the file, Initialization is not hoisted 
+    => let and const will not be hoisted, only var is hoisted 
+    => If we don't declare var then automatic declaration and hoisting will happen.
+    => Automatic declaration will not happen when the same variable is declared with let / const in the same scope.
+
+5. API 
     
