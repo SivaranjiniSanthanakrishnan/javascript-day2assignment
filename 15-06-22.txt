@@ -26,5 +26,37 @@ Types of Datatypes
     => If we don't declare var then automatic declaration and hoisting will happen.
     => Automatic declaration will not happen when the same variable is declared with let / const in the same scope.
 
-5. API 
-    
+5. API : Application Programming Interface 
+    => Communication between frontend and backend
+    HTTP Methods
+        a. GET : To get data from backend 
+            No req.body
+        b. POST : To insert data to backend 
+            req.body will be there 
+            No url parameters
+        c. PUT : To update data in backend 
+            req.body will be there 
+            Url Parameters will be there 
+        d. DELETE : To delete entire Object / data in backend 
+            No req.body 
+            Url parameters will be there
+
+6. Functions 
+    => Frequently repeated task can be written inside function 
+    => Code Reusability 
+    => Function returns the output
+    => We cann return whatever datatype from the function 
+    => Lines after return will not execute
+
+// Task 
+1. Write a function to return only odd numbers from an array 
+
+7. Anonymous Function 
+    => Functions without a name and assigned to a variable is Anonymous Functions 
+8. Arrow Functions 
+    => Arrow Function is introduced in ES7, which is used for latest coding
+    => Memory Optimization 
+    => Arrow Function is written without a function keyword and with a arrow syntax 
+9. IIFE 
+    => IIFE is executed directly and immediately called 
+    => IIFE is not assigned to a variable or called with a function name 
