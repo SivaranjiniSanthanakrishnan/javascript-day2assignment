@@ -28,7 +28,7 @@ function oddNumbersReturn () {
     // console.log(oddArray)
     // console.log(evenArray)
 }
-// console.log(oddNumbersReturn());
+ console.log(oddNumbersReturn());
 
 // Normal Function
 function add(n1,n2) {

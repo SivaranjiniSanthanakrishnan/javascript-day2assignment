@@ -60,3 +60,18 @@ Types of Datatypes
 9. IIFE 
     => IIFE is executed directly and immediately called 
     => IIFE is not assigned to a variable or called with a function name 
+10. Class:
+    => Class is a collection of Constructor and Class Methods 
+    => We can create object for classes by using the keyword new Class();
+    => We can create n number of objects for a class 
+    => Class Methods can be called by class objects 
+    
+11. Constructor:
+    => Constructor is a default function executed (if exists), when class object is created
+    => Params for the Constructor can be passed while creating a object.
+        new ClassName(params1, params2, .... paramsn)
+    => If any value assigned with this keyword either in Constructor or in any function,
+        it can be accessed all over the class 
+
+12. Inheritance 
+13. Getter, Setter 
