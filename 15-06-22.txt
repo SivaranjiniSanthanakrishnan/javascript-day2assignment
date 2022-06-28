@@ -84,3 +84,39 @@ Types of Datatypes
 
 13. Inheritance 
 14. Getter, Setter 
+    => Getter is a property of the object, if we access getter it will print the returned output
+    => Setter is a property of the Object
+    => Setter can be assigned value like other properties
+    => Instead of function Getter and Setter is more light weighted 
+
+15. .map() 
+    => Map function will loop through array elements 
+    => Operations has to be done in map function and that output can be returned 
+    => Map function in array will not channge it's own value, instead it will return another output array.
+
+16. .filter() 
+    => Filter function will loop through array elements 
+    => Conditions or Boolean values can be returned inside filter function. 
+    => Filter function in array will not from it's parent arraay, 
+        instead it will return another filtered output array.
+
+17. .reduce()
+    => Reduce function will loop through array elements 
+    => Reduce function will accumulate the operated values in each iteration. 
+    => The default value for the accumulator is 0, 
+        if we want to change the value then 
+        we can give the accumulator value in the second parameter of reduce function
+    => Finally reduce function will return the accumulated value output 
+
+
+Don't want to use :  (later version)
+for loop
+for ... of
+for ... in
+Normal Functionn 
+
+Want to use  (ES6 version)
+.map    // Used in array 
+.forEach   //
+.filter    //
+Arrow function 

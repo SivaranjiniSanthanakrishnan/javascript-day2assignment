@@ -1,0 +1,66 @@
+HTML : Hyper Text Markup Language 
+
+Extensions want to install
+1. Bracket Pair Colorizer
+2. HTML CSS Support
+3. HTML Snippets
+4. Live Server
+5. vscode-icons
+
+1. HTML : Hyper Text Markup Language 
+    => HTML is a markup language which is used for web page design.
+    => HTML language is supported by Browser, no need of Installation for HTML 
+    => HTML5 is released on January 2008. 
+
+2. Difference between HTML and HTML5 
+    => HTML will use Browser cache; HTML5 will use Application cache, webSQL, Manifest.
+        a. Speed 
+        b. Loads Webpage after first time without network, because page is loaded from cache (Offline Browsing)
+    => IE and other old browsers won't support HTML5 
+
+3. New Tags Introduced in HTML5
+    => Menu 
+    => Figure 
+    => Audio 
+    => Video 
+    => Strong 
+
+4. Basic Tags in HTML 
+    => Anchor Tag 
+    => Image tag 
+    => Div, P, head, title, title logo (link), h1... h5, br, b, i, u, strong, strike, span, List, table  
+
+5. Attribute 
+    => Properties which is given to tag. 
+    => Tag behaves based on the attributes we gave. 
+    => Attributes is a predefined keyword 
+
+6. Semantic Elements : Clearly defines about its content (Eg: <form>, <table>, <article>)
+7. Non Semantic Elements : Tells nothing about its content (Eg: <div>, <span>, <p>, <nav>)
+
+8. Inline elements : An inline element does not start on a new line. An inline element only takes up as much width as necessary.
+    Eg., Span, input fields 
+9. Block Elements : A block-level element always starts on a new line. Block element takes up the entire width in the line.
+    Eg., div, p 
+
+10. Div 
+    => Used to divide the content.
+    => Groups the block of content / tags and can apply css especially to that block.
+11. Article 
+    => Group of content is written inside Article
+    => Article is independennt to other contents and can be removed 
+        and placed in other site without any design/content pitfall
+12. Section
+    => Article can be splitted into multiple sections for better understanding 
+    => Sections should conntain Heading and the body of the content. 
+
+13. HTML Forms 
+    input types:
+        1. text 
+        2. email
+        3. password 
+        4. number
+        5. date 
+        6. checkbox 
+        7. radio
+        8. select box 

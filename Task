@@ -1,0 +1,4 @@
+Class and Objects
+1. Create a parent class Shapes
+2. Create a Child class Circle, Rectange, Square for a parent class Shapes 
+3. Create a object for all these child classes and access the functions inside child class 

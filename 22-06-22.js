@@ -82,7 +82,7 @@ var person = {
     names : "Mosh1",
     walk () {
         names = "XXX"
-        console.log(this.names); // XXX
+        console.log(this.names); 
         return 0;
     }
 }
