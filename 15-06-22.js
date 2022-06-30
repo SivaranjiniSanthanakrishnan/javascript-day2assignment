@@ -31,7 +31,7 @@ arr2.push(4);
     if(5>4) {
         let str;
         {
-            str = 'guvi geek'
+            str = 'HTC Global'
             console.log(str); // guvi geek
         }
         console.log(str); // guvi geek

@@ -64,3 +64,49 @@ Extensions want to install
         6. checkbox 
         7. radio
         8. select box 
+
+CSS : Cascading Style Sheets
+    => Used for designing the webpage, with multiple properties 
+
+Types :
+    1. Inline CSS  : Applying style in the tag itself
+    2. Internal CSS : Applying style in head element
+    3. External CSS : Applying css in the external css file and link in the HTML file 
+    => Inline CSS takes more priority than Internal and External CSS
+    => Internal and External CSS takes the order in which it is placed, the last written 
+        CSS overwrites the previous one.  
+
+Selectors : 
+    1. Tag Selector : Selects the element with tag name
+    2. Id Selector : Selects the element with it's id. Use # symbol to select.
+    3. Class Selector : Selects the element with it's class name. Use . symbol to select.
+    4. Universal Selector : Selects all the element in HTML page. Use * symbol to select.
+    => If a element has all id, class and tag selector, id selector will take the first 
+        priority over the others.
+    => If a element has Class, tag and Universal Selector, class selector will take more 
+        priority
+
+CSS Properties 
+1. Text Properties
+2. List Properties
+3. Border Properties
+4. Font Properties
+
+
+Pseudo Class: 
+    Pseudo Class is a false class that will execute its properties whenever its sub action is executed. 
+    Pseudo class can be written by using the symbol : after selector
+    1. link : Link can be applied only for tags having href attribute.
+            This pseudo class applies its properties when the link is not even visited once. 
+    2. visited : Visted can be applied only for tags having href attribute. 
+                This pseudo class applies it's properties once the website is visited atleast once. 
+    3. active : Applies it's property whenever the element is clicked
+    4. hover : Executes its css properties, whenever mouse is hoved on a particular element for which hover class is applied.
+
+GRID:
+    Grid Container: The main div or the parent div 
+    Grid Item : Each and every div inside grid container is grid item 
+    Grid Area : Combined two or more cells is Grid Area 
+    Grid Gap : Space between two cells is Grid Gap 
+    Grid Track : Either row or Column selected is Grid Track 
+

@@ -42,6 +42,7 @@ let obj = {
             console.log("Instde arrow fn in inB")
             console.log(this.a); 
             console.log(this.inA); 
+            return this.a;
         },
         inC() {
             console.log("Instde normal fn inC")
@@ -143,4 +144,6 @@ class Circle extends Shapes{
 
 const c = new Circle(6, 10, 15);
 console.log(`Circumference is ${c.circumference()}`);
+
+
 
