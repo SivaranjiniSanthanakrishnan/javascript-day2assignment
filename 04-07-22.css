@@ -1,0 +1,76 @@
+/* Basic CSS Properties */
+
+.container{
+    width: 900px;
+    height: 800px;
+    border: 3px solid black;
+}
+
+.item{
+    height:100px;
+    /* width: 100px; */
+    border: 2px red dotted;
+}
+
+.item:nth-child(odd){
+    background-color:antiquewhite
+}
+
+.item:nth-child(even){
+    background-color: cornsilk;
+}
+
+/* Flex Properties */
+
+.container{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around; */
+}
+
+.item{
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+.item1{
+    flex-shrink: 2;
+}
+
+.item1{
+    order: 2
+}
+.item2{
+    order: 1
+}
+.item3{
+    order: 3
+}
+.item4{
+    order: 4
+}
+.item5{
+    order: 5
+}
+
+.overflow{
+    height: 300px;
+    width: 1000px;
+    border: 3px solid black;
+    overflow: hidden
+}
+
+@media screen and (max-width:500px){
+    .media{
+        color: red;
+        border: 2px red solid;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .media{
+        color: purple;
+    }
+}

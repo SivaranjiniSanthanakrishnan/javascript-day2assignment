@@ -103,10 +103,70 @@ Pseudo Class:
     3. active : Applies it's property whenever the element is clicked
     4. hover : Executes its css properties, whenever mouse is hoved on a particular element for which hover class is applied.
 
-GRID:
+GRID: Two Dimensional
     Grid Container: The main div or the parent div 
     Grid Item : Each and every div inside grid container is grid item 
     Grid Area : Combined two or more cells is Grid Area 
     Grid Gap : Space between two cells is Grid Gap 
     Grid Track : Either row or Column selected is Grid Track 
 
+Position Properties: 
+    1. Static 
+        => Default arrangement in HTML is static position. 
+            Static position arranges its elements in a sequence order.
+        => It will not change based on Top, Left, Bottom, Right 
+    2. Relative 
+        => A space is created for relative position
+        => It will affect the document flow
+        => It will change based on Top, Left, Bottom, Right.
+        => Relative positioned element will consider itself as a parent 
+            and move from its own position
+        => Sibling elements will not change it's position with respect to relative positioned element.
+    3. Absolute : Imaginary 
+        => No Space is created for absolute position 
+        => It will affect the document flow
+        => It will change based on Top, Left, Bottom, Right position with respect to screen 
+        => Sibling element will not leave space for absolute element and will occupy its space.  
+    4. Relative with Absolute 
+        => Parent should be relative and child should be absolute
+        => If we change the child elements it will change with respect to parent that is positioned as relative.
+    5. Fixed 
+        => Fixed with a particular given position.
+        => It will change based on Top, Left, Bottom, Right position with respect to screen 
+    6. Sticky
+        
+Flex : Flexible
+    1. Flex is a new box model 
+    2. Flex is flexible and Adaptive
+    3. Flex is a single Dimensional 
+
+Advantages of FlexBox :
+    1. Easy to align element in vertical or horizontal centering 
+    2. flexBox can be reversed or rearranged at the style/order.
+    3. Ability to fill extra space.
+    4. Easy to use and more properties eventhough it is single dimensional 
+
+Properties of Flex:
+1. flex-direction : row, column, row-reverse, column-reverse
+2. flex-wrap : nowrap, wrap, wrap-reverse (Wrap the overflowing item, default is nowrap)
+3. justify-content : flex-start, flex-end, center, space-around, space-between 
+    (Align the items in x-axis, by default value is flex-start )
+4. align-content : flex-start, flex-end, center, space-around, space-between 
+    (Align the items in y-axis, by default value is flex-start )
+5. order
+6. flex-grow : Grows the flex items based on the ratio given with respect to other items
+7. flex-shrink : Shrinks the flex items based on the ratio given with respect to other items
+
+Overflow:
+Handles the overflowing content from container 
+1. auto : adds scroll bar, automatic property 
+2. hidden : hides the overflowing content 
+3. visible : Overflowing contennt is visible (Default property)
+4. scroll : Adds the scroll bar 
+
+
+Bootstrap:
+Responsive web design.
+Installation:
+1. You can directly download the CSS and JS files of bootstrap 
+2. Add CDN (Content Delivery Network) link.

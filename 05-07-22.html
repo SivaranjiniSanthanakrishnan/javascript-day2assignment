@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="05-07-22.css">
+</head>
+<body>
+    <div class="container">
+        <button type="button" class="btn btn-danger">Primary</button> <br/> <br/>
+        <div class="row">
+            <div class="prop col-lg-6 col-sm-12">Item 1</div>
+            <div class="prop col-lg-6 col-sm-12">Item 2</div>
+        </div> <br/>
+        <div class="row">
+            <div class="prop col-md-6 order-2"> Item 1 </div>
+            <div class="prop col-md-6 order-1"> Item 2 </div>
+        </div> <br/>
+        <div class="row">
+            <div class="prop col-4 offset-1">Item 1</div>
+            <div class="prop col-4 offset-2">Item 2</div>
+        </div> <br/>
+
+        <div class="row">
+
+            <div class="prop col-4">
+                <div class="row">
+                    <div class="nestedprop col-6"> Row inside Column 1</div>
+                    <div class="nestedprop col-6"> Row inside Column 2</div>
+                </div>
+            </div>
+
+            <div class="prop col-4 offset-4">
+                <div class="row">
+                    <div class="nestedprop1 col-6"> Row inside Column 1</div>
+                    <div class="nestedprop1 col-6"> Row inside Column 2</div>
+                </div>
+            </div>
+            
+        </div> <br/>
+
+        <div class="row row-prop justify-content-evenly align-content-start">
+            <div class="prop col-4">Item 1</div>
+            <div class="prop col-4">Item 2</div>
+        </div> <br/> 
+
+        <div class="row">
+            <div class="col-1 bg-primary">1</div>
+            <div class="col-1 bg-secondary">2</div>
+            <div class="col-1 bg-success">3</div>
+            <div class="col-1 bg-danger">4</div>
+            <div class="col-1" style="background-color:aquamarine">5</div>
+            <div class="col-1 bg-warning">6</div>
+            <div class="col-1 bg-info">7</div>
+            <div class="col-1 bg-light">8</div>
+            <div class="col-1 bg-dark">9</div>
+            <div class="col-1 bg-muted">10</div>
+            <div class="col-1 bg-white">11</div>
+            <div class="col-1 bg-info">12</div>
+            <div class="col-1 bg-info">13</div>
+        </div> <br/> <br/> 
+        
+        <div class="row">
+            <div class="col-md-12 col-xl-9">
+                <form>
+                    <h3>User Form</h3>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" 
+                            aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">
+                            We'll never share your email with anyone else.</small>
+                      </div> <br/>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                    </div> <br/>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div> <br/>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                </form>
+            </div>
+        </div>
+        
+        <br/> <br/> <br/> <br/>  <br/> <br/> 
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
