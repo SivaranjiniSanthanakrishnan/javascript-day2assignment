@@ -1,0 +1,52 @@
+
+1. Javascript behaves asychronously
+2. Asynchronous : Non blocking functions will not wait for blocking/dependency operation.
+3. Javascript is a single threaded.
+
+Callback Function:
+1. Callback is used to work javascript asynchronously.
+2. Callback function is a function which is passed aas an argument to another function.
+3. Callback function will execute immediately once the main function got executed.
+4. Callback will always takes the last parameter. 
+
+Event Loop:
+
+Call Stack:
+
+Callback Queue:
+
+Callback hell:
+    => Callback function inside callback function which makes confuse is callback hell.
+    => Nested callback functions is callback hell. 
+
+
+Promise:
+    1. Promise is used to work javascript asynchronously.
+    2. Problems like callback hell will not occur in promise 
+    3. Promise will give back the control to the developer unlike callback 
+    4. Once executed the main function, it will return the promise which may have three states.
+        a. Resolved / Fulfilled: It is the state where Promise is resolved successfully.
+            When call is success Promise will send the data in resolved state.
+        b. Rejected : It is the state where Promise is rejected.
+            Having err in function call / data inconsistency will be sent 
+            along with err message in rejected state.
+        c. Pending : It is the initial state where the Promise is neither resolved nor rejected.
+
+MicroTask Queue:
+    1. Promise functions are passed from Web APIs to MicroTask Queue once it going to execute 
+    2. Event loop will take the Promise function from MicroTask as priority 
+        over callback queue and move it to call stack to execute. 
+
+Promise Chaining: 
+    1. Chain of .then functions is Promise Chaining 
+    2. The returned output of previous .then is the inout parameter for the next .then 
+    3. Chain of .then functions will execute one by one, not by the Prioritize method 
+    4. .finally block will be executed irrespective of promise rejected or resolved
+
+Promise.all()
+    1. In .then function we will get array which consists of resolved data of all promises 
+    2. Consider if third promise takes time to execute then all the promises 
+        will wait until third promise get executed and then resolved data 
+        is sent to .then function
+    3. Even one promise is rejected no other promise will execute 
+        and the rejected promise will be caught in catch block 

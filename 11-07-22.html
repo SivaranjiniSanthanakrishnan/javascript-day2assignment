@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    On Click : <input type="text" id="evt1" onclick="eventTriggered(this)" />
+    <br />
+    <br />
+    On Blur : <input type="text" id="evt2" onblur="eventTriggered(this)" />
+    <br />
+    <br />
+    On Focus : <input type="text" id="evt3" onfocus="eventTriggered(this)" />
+    <br />
+    <br />
+    On Select : <input type="text" id="evt4" onselect="eventTriggered(this)" />
+    <br />
+    <br />
+    On Keyup : <input type="text" id="evt5" onkeyup="eventTriggered(this)" />
+    <br />
+    <br />
+    On Keydown :
+    <input type="text" id="evt6" onkeydown="eventTriggered1(event)" />
+    <br />
+    <br />
+    On Change :
+    <input type="text" id="evt7" onchange="eventTriggered(this)" />
+    <br />
+    <br />
+    <form onsubmit="formSubmit(event)">
+      <h3>User Form</h3>
+      <div>
+        <label>Name</label>
+        <input type="text" id="name" name="name" /><br />
+        <span id="nameErr" style="color: red"></span>
+      </div>
+      <br />
+
+      <div>
+        <label>Email</label>
+        <input type="email" id="email" name="email" /> <br />
+        <span id="emailErr" style="color: red"></span>
+      </div>
+
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+    <h3>Courses List</h3>
+    <ul id="list1">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+    </ul>
+    <br />
+    Enter Course : <input type="text" id="courseName" /> <br />
+    <br />
+    <button id="addCourse">Add Course</button> &nbsp;
+    <button id="removeCourse" onclick="removeCourse('abc')">
+      Remove Course
+    </button>
+    <br />
+    <br />
+    <br />
+
+    <h3>User Table</h3>
+    <table border="1" id="table1">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>AAA</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>BBB</td>
+        <td>26</td>
+      </tr>
+    </table>
+    <br />
+
+    <button onclick="addrow()">Add Row</button>
+    <button onclick="deleterow()">Delete Row</button> <br />
+    <br />
+    <br />
+
+    <script src="11-07-22.js"></script>
+  </body>
+</html>

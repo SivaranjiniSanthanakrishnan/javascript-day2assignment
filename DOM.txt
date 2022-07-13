@@ -1,0 +1,26 @@
+1. document.getElementById => Element
+2. document.getElementsByClassName => Array of Elements
+3. document.getElementsByTagName => Array of Elements
+4. querySelector => Element
+5. querySelectorAll => Array of Elements
+
+
+Events:
+1. onclick
+2. onblur
+3. onfocus
+4. onselect
+5. onkeyup
+6. onkeydown
+7. onSubmit
+
+DOM : Document Object Model 
+    => DOM gives a structural representation of HTML Elements 
+    => HTML is parsed and converted into DOM
+    => The structural representation will be tree like structure 
+
+DOM Manipulation :
+    => Manipulating HTML elements / tags from Javascript is DOM 
+    => To support dynamic operation 
+    => To perform operations in HTML we are using DOM Manipulation 
+
